@@ -1,8 +1,8 @@
 import styled, {createGlobalStyle} from "styled-components";
 
 const textColor = "#E0CBA5";
-const primaryColor = "#DC2D5C";
-const secondaryColor = "";
+export const primaryColor = "#DC2D5C";
+export const secondaryColor = "#66F3ED";
 
 export const GlobalStyle = createGlobalStyle`
 * {
@@ -10,18 +10,18 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     background-color: #1e0024;
     font-family: Roboto Slab;
-
+    color: ${textColor};
 }
 `
 
 export const Grid = styled.div`
     display: grid;
     align-items: ${({alignItems}) => alignItems || "stretch"};
-    grid-template-columns: ${({columns}) => columns || "1fr"};
-    grid-template-rows: ${({rows}) => rows || "1fr"};
-    grid-column-gap: ${({columnGap}) => columnGap || "0px"};
-    grid-row-gap: ${({rowsGap}) => rowsGap || "0px"};
-    color: ${({color}) => color || textColor}
+    grid-template-columns: ${({columns}) => columns || "auto"};
+    grid-template-rows: ${({rows}) => rows || "auto"};
+    grid-gap: ${({gap}) => gap || "0px"};
+    color: ${({color}) => color || textColor};
+    background: ${({background}) => background || "inherit"};
 
 `
 
@@ -58,9 +58,57 @@ export const AuthorizationBtn = styled.button`
     font-family: Roboto Slab;
     text-transform: uppercase;
     font-size: 19px;
-    padding: 1px 4px;
+    padding: 1px 5px;
         &:hover {
             cursor: pointer;
             background: #4c2c52;
         }          
 `
+
+export const HeartArea = styled.div`
+    justify-self: center;
+    background: inherit;
+    align-self: center;
+
+        >:hover {
+            cursor: pointer;
+            color: ${primaryColor};
+            font-size: 40px;
+        }   
+`
+
+export const SortArea = styled.div`
+    background: inherit;
+    align-self: center;
+
+
+    >*:hover {
+        cursor: pointer;
+        color: ${primaryColor};
+        background: inherit;
+    }   
+`
+export const SearchArea = styled.div`
+    background: inherit;
+    justify-self: end;
+    align-self: center;
+
+`
+
+export const SearchField = styled.input`
+    border: none;
+    background: #7B3989;
+    height: 27px;
+    border-radius: 5px;
+    padding: 1px 10px;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: ${secondaryColor};
+    }
+`
+
+    

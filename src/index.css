@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card:hover {
+  cursor: pointer;
+  background-color: #7B3989 !important;
+}
+.btn-primary:hover {
+  cursor: pointer !important;
+}
