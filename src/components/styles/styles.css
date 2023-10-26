@@ -1,0 +1,10 @@
+.social-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+
+.social-icon:hover {
+    width: 50px !important;
+    height: 50px !important;
+}

@@ -1,6 +1,6 @@
 import styled, {createGlobalStyle} from "styled-components";
 
-const textColor = "#E0CBA5";
+export const textColor = "#E0CBA5";
 export const primaryColor = "#DC2D5C";
 export const secondaryColor = "#66F3ED";
 
@@ -17,8 +17,10 @@ export const GlobalStyle = createGlobalStyle`
 export const Grid = styled.div`
     display: grid;
     align-items: ${({alignItems}) => alignItems || "stretch"};
+    justify-items: ${({justifyItems}) => justifyItems || "stretch"};
     grid-template-columns: ${({columns}) => columns || "auto"};
     grid-template-rows: ${({rows}) => rows || "auto"};
+    grid-auto-rows: ${({autoRows}) => autoRows || "auto"};
     grid-gap: ${({gap}) => gap || "0px"};
     color: ${({color}) => color || textColor};
     background: ${({background}) => background || "inherit"};
@@ -40,7 +42,7 @@ export const Title = styled.div`
     font-size: 42px;
     padding: 10px 0;
     text-align: center;
-
+    text-decoration: none;
 `
 
 export const Authorization = styled.div`
@@ -111,4 +113,26 @@ export const SearchField = styled.input`
     }
 `
 
-    
+export const SiteLogo = styled.img`
+    src: ${({src}) => src || "img"};
+    alt: ${({alt}) => alt || "NoAlt"};
+    width: ${({size}) => size || "100%"};
+    justify-self: center;
+`
+
+export const FooterTitle = styled(Title)`
+    font-size: 20px;
+    text-shadow: 1.3px 0px 0px ${primaryColor};
+`
+
+export const FooterLinks =styled.a`
+    href: ${({href}) => href};
+    text-decoration: none;
+    grid-column: ${({col}) => col || "auto"};
+    grid-row: ${({row}) => row || "auto"};
+
+
+    &:hover {
+        color: ${primaryColor}
+    }
+`

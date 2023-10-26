@@ -19,6 +19,7 @@ export function HeaderField() {
         <Grid style={{background: "#3B0147", padding: "13px 15px"}} columns="155px 100px 1fr" >
             <SortArea>
                 <select style={formStyles}>
+                    <option value="default">Default</option>
                     <option value="Low-High">Price: Low - High</option>
                     <option value="High-Low">Price: High - Low</option>
                 </select>

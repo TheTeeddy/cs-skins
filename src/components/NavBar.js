@@ -15,7 +15,7 @@ export function NavigationBar() {
                 alt="SKINS FATE LOGO"/>
             </Logo>
             
-            <Title> skins fate </Title>
+            <Title as="a" href="/"> skins fate </Title>
 
             <Authorization>
                 <AuthorizationBtn>
