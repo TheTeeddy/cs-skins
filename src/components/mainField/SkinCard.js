@@ -15,7 +15,11 @@ export default function SkinCard({src, price}) {
       alt={src}
       />
       <Card.Body style={{background: "inherit"}}>
+<<<<<<< HEAD
         <Card.Text style={{color: secondaryColor, background: "inherit", marginBottom: "6px"}}>
+=======
+        <Card.Text style={{color: secondaryColor, background: "inherit"}}>
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
             {price} $
         </Card.Text>
         <Button variant="primary" style={{background: "#2a0033", width: "100%"}}>Basket</Button>

@@ -3,22 +3,33 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.15",
+=======
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.1",
     "react": "^18.2.0",
+<<<<<<< HEAD
     "react-bootstrap": "^2.9.1",
+=======
+    "react-bootstrap": "^2.9.0",
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
     "react-scripts": "5.0.1",
     "react-select": "^5.7.7",
     "react-social-icons": "^6.4.0",
+<<<<<<< HEAD
     "styled-components": "^6.1.0",
+=======
+    "styled-components": "^6.0.8",
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
     "web-vitals": "^2.1.4"
   },
   "scripts": {

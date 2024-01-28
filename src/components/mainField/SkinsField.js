@@ -2,7 +2,10 @@
 import { skinsInfo } from "../../data/data"
 import SkinCard from "./SkinCard"
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
 import { Grid } from "../styles/styles"
 
 

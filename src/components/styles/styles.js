@@ -71,11 +71,18 @@ export const HeartArea = styled.div`
     justify-self: center;
     background: inherit;
     align-self: center;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
 
         >:hover {
             cursor: pointer;
             color: ${primaryColor};
+<<<<<<< HEAD
+=======
+            font-size: 40px;
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
         }   
 `
 
@@ -135,6 +142,7 @@ export const FooterLinks =styled.a`
     &:hover {
         color: ${primaryColor}
     }
+<<<<<<< HEAD
 `
 
 export const FilterButton = styled(HeartArea)`
@@ -150,3 +158,6 @@ export const FilterTitle = styled(Title)`
     text-shadow: none;
     text-transform: none;
 `
+=======
+`
+>>>>>>> fb49d7f619ea1c1fce116ba6852fb734fc939151
