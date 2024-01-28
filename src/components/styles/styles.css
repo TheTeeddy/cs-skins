@@ -1,0 +1,134 @@
+.social-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+
+.social-icon:hover {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.filter-title {
+    /* grid-column: span 2; */
+    padding-left: 10px;
+    background: inherit;
+    margin-bottom: 6px;
+}
+
+.price-right {
+    padding-right: 10px;
+    text-align: end;
+}
+
+.input-price {
+    background: #652373;
+    outline: none;
+    border: 0;
+    width: 100px;
+}
+
+.filter-body {
+    background: inherit;
+    padding-left: 10px;
+}
+.filter-body:hover {
+    outline: none;
+}
+
+.toggle-button {
+    background: inherit;
+    justify-self: end;
+    padding-right: 10px;
+}
+
+.bi-dash {
+    background: inherit;
+    cursor: pointer;
+    font-size: 22px;
+}
+.bi-plus {
+    background: inherit;
+    cursor: pointer;
+    font-size: 22px;
+}
+.filter-color {
+    background: transparent;
+    margin-top: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.red {
+    width: 27px;
+    height: 27px;
+    background: red;
+    border-radius: 50%;
+}
+.blue {
+    width: 27px;
+    height: 27px;
+    background: #1240AB;
+    border-radius: 50%;
+}
+.green {
+    width: 27px;
+    height: 27px;
+    background: #00CC00;
+    border-radius: 50%;
+}
+.yellow {
+    width: 27px;
+    height: 27px;
+    background: #FFD300;
+    border-radius: 50%;
+}
+.active-color-filter {
+    border: 3px solid #66F3ED;
+    width: 21px;
+    height: 21px;
+}
+.red:hover, .blue:hover, .green:hover, .yellow:hover {
+    cursor: pointer;
+    border: 3px solid #66F3ED;
+    width: 21px;
+    height: 21px;
+}
+.check-box {
+    width: 20px;
+    height: 20px;
+    transform: scale(1.3);
+    accent-color: #DC2D5C;
+    justify-self: center;
+}
+input[type=checkbox] {
+    cursor: pointer;
+}
+.reset-filter {
+    position: absolute;
+    text-align: center;
+    width: 120px;
+    font-size: 17px;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    border: 2px solid #DC2D5C;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.reset-filter:hover {
+    cursor: pointer;
+    background-color: #4c2c52;
+}
+.close-btn {
+    font-size: 200%;
+    position: absolute;
+    right: 8px;
+    top: 115px;
+    background: #2a0033;
+    cursor: pointer;
+}
+.close-btn:hover, .bi:hover {
+    color: #DC2D5C;
+}
